@@ -13,7 +13,7 @@ if (process.env.JAWSDB_URL) {
 };
 
 connection.connect();
-modules.exports = connection;
+module.exports = connection;
 
 // var connection = mysql.createConnection({
 //     host: "us-cdbr-east-02.cleardb.com",
